@@ -5,12 +5,11 @@ import ThemeContextProvider from './context/ThemeContext'
 
 function App() {
   return (
-    <div className="app">
+    <div className="App">
       <ThemeContextProvider>
         <Navbar />
         <BookList />
       </ThemeContextProvider>
-       
     </div>
   )
 }
